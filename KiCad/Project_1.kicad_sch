@@ -1,0 +1,2024 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "12004f88-a863-4328-823f-21122d91bb4c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xGxx:74AHC1G02"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 11.43 3.1749 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHC1G02"
+				(at 11.43 0.6349 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field4" "<script>alert('fucked again!');</script>"
+				(at 5.08 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Gate NOR LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT* SG-*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74AHC1G02_0_1"
+				(arc
+					(start -7.62 -5.08)
+					(mid -5.838 0)
+					(end -7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.08)
+					(mid 3.1986 -3.2054)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.2238 3.2304)
+					(end 0 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74AHC1G02_1_1"
+				(text "Bodo"
+					(at -6.604 7.366 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+							(italic yes)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+1V5"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V5"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V5\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V5_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V5_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+1V5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 90.17 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "216da783-0932-4d63-a20f-f1dde493cc53")
+	)
+	(no_connect
+		(at 90.17 52.07)
+		(uuid "9b705452-2d85-4acd-9407-12dce087fdce")
+	)
+	(bus_entry
+		(at 57.15 57.15)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a9f1a9-3333-42c5-9eeb-5eccd56d2a6d")
+	)
+	(bus_entry
+		(at 46.99 57.15)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8950735-d02b-4dea-8d25-8a649fa49abe")
+	)
+	(bus
+		(pts
+			(xy 250.19 127) (xy 269.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a13024-6dd0-44f3-a99e-339efd68b685")
+	)
+	(polyline
+		(pts
+			(xy 203.2 117.2464) (xy 204.0128 117.2464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 7 255 0.52)
+		)
+		(uuid "02a38ca2-e5f5-49c1-9495-310abd122ec6")
+	)
+	(polyline
+		(pts
+			(xy 246.38 102.87) (xy 246.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa3f6f9-71cf-4063-abe6-d9f509bb7ed4")
+	)
+	(polyline
+		(pts
+			(xy 202.3872 116.4336) (xy 204.0128 116.4336)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 30 18 255 1)
+		)
+		(uuid "131024a1-a3d5-48cc-b58d-0c0bbdaf2523")
+	)
+	(polyline
+		(pts
+			(xy 208.026 119.888) (xy 208.026 118.872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 0.51)
+		)
+		(uuid "15a789ab-81f7-470d-916a-4a2d1584632b")
+	)
+	(bus
+		(pts
+			(xy 46.99 57.15) (xy 57.15 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d4ebec-3f54-4afb-a8a9-8a4fbaedbe34")
+	)
+	(polyline
+		(pts
+			(xy 205.994 118.872) (xy 205.994 119.888)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 204 204 204 0.5)
+		)
+		(uuid "19dbf95f-a829-4718-9594-92d6095f59e2")
+	)
+	(bus
+		(pts
+			(xy 26.67 57.15) (xy 46.99 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1def3ff8-841d-433e-99db-3cf75dc02b50")
+	)
+	(polyline
+		(pts
+			(xy 202.3872 117.2464) (xy 202.3872 116.4336)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 7 255 0.52)
+		)
+		(uuid "29b1e334-8813-4736-9c39-bd4c42b5488a")
+	)
+	(polyline
+		(pts
+			(xy -56.233 88.3294) (xy -56.233 81.9238)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fffde2c-a433-4682-a119-d14dc76c848a")
+	)
+	(polyline
+		(pts
+			(xy 207.01 118.872) (xy 205.994 118.872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 0.51)
+		)
+		(uuid "38856e13-4e12-449d-9fba-dda3933b0b88")
+	)
+	(wire
+		(pts
+			(xy 90.17 44.45) (xy 96.52 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51771b14-3ad0-4d20-90c7-22ca2c742456")
+	)
+	(polyline
+		(pts
+			(xy 246.38 102.87) (xy 227.33 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db9cc46-6c6b-4f7b-b479-7c9386e783ed")
+	)
+	(polyline
+		(pts
+			(xy 260.35 88.9) (xy 260.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f632dd-3f1a-4551-8040-b9b2040b9df7")
+	)
+	(polyline
+		(pts
+			(xy 227.33 88.9) (xy 227.33 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d103129-80cb-4a2c-8789-2e1d1e850735")
+	)
+	(wire
+		(pts
+			(xy 90.17 33.02) (xy 90.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5f5c23-5aca-446c-96a9-113e1a2c9161")
+	)
+	(polyline
+		(pts
+			(xy -59.69 86.36) (xy -52.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831583f2-532a-4c7e-84a5-899056bf423d")
+	)
+	(polyline
+		(pts
+			(xy 187.96 95.25) (xy 193.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 253 56 1)
+		)
+		(uuid "8460b943-9bdb-4144-952c-718b12acd80a")
+	)
+	(wire
+		(pts
+			(xy 26.67 39.37) (xy 26.67 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88bc4283-7e6e-4193-86cb-f619fbef9933")
+	)
+	(wire
+		(pts
+			(xy 77.47 44.45) (xy 90.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c38707-59ec-439e-8449-e1147b7f1971")
+	)
+	(polyline
+		(pts
+			(xy 227.33 88.9) (xy 240.03 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4a40dc-51fe-41c8-8d67-a4b38a5730e1")
+	)
+	(polyline
+		(pts
+			(xy 207.01 116.84) (xy 207.01 118.872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 0.51)
+		)
+		(uuid "a58f403d-357f-4f10-b0fb-1fdfad78b5cf")
+	)
+	(polyline
+		(pts
+			(xy 193.04 95.25) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 253 56 1)
+		)
+		(uuid "aad8e226-5e1e-4ccb-ac60-d6997ed22004")
+	)
+	(wire
+		(pts
+			(xy 90.17 44.45) (xy 90.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c295e1c0-479f-4519-bfc1-3cde6c13270b")
+	)
+	(bus
+		(pts
+			(xy 57.15 57.15) (xy 90.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c411561c-4af8-4d3f-a92e-efc8061d6d61")
+	)
+	(polyline
+		(pts
+			(xy 39.37 97.79) (xy 68.58 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49af41c-25c1-4bd8-9d30-d18a1c142fd5")
+	)
+	(polyline
+		(pts
+			(xy 246.38 118.11) (xy 246.38 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2bfa1d4-57ca-42de-8117-54dd0aba1462")
+	)
+	(polyline
+		(pts
+			(xy 240.03 88.9) (xy 260.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6b4350-e6cd-474d-a4a2-983487675907")
+	)
+	(polyline
+		(pts
+			(xy 205.994 119.888) (xy 208.026 119.888)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 204 204 204 0.5)
+		)
+		(uuid "f3319a47-3217-4e43-a3b6-3f928745fd31")
+	)
+	(polyline
+		(pts
+			(xy 203.2 117.2464) (xy 202.3872 117.2464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 7 255 0.52)
+		)
+		(uuid "f3c65703-8015-4e2b-853d-badd7485c518")
+	)
+	(polyline
+		(pts
+			(xy 38.1 134.62) (xy 67.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50d9257-28e8-4fdc-a16c-208b6c5e7379")
+	)
+	(polyline
+		(pts
+			(xy 203.2 119.38) (xy 203.2 117.2464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 7 255 0.52)
+		)
+		(uuid "f79aab8c-8208-4bc9-a3a0-65ad391eb427")
+	)
+	(polyline
+		(pts
+			(xy 204.0128 116.4336) (xy 204.0128 117.2464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 30 18 255 1)
+		)
+		(uuid "fd713bcb-5622-48cb-aeff-892ebdb7cb3a")
+	)
+	(polyline
+		(pts
+			(xy 207.01 118.872) (xy 208.026 118.872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 0.51)
+		)
+		(uuid "fee29b4e-82f4-4302-9dcf-cb49f1e01dc0")
+	)
+	(polyline
+		(pts
+			(xy 260.35 118.11) (xy 246.38 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff17de38-b5b1-412d-8057-33b500297642")
+	)
+	(circle
+		(center 199.2884 116.7384)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 84 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid 01c6ef07-2030-4b74-93d2-89d66c547a13)
+	)
+	(rectangle
+		(start 193.04 19.05)
+		(end 261.62 44.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0bf8d9a5-6eb9-4a1e-8809-526a90dc5c86)
+	)
+	(arc
+		(start 63.5 168.91)
+		(mid 53.0998 179.4482)
+		(end 40.64 171.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 11e50e34-7057-46e8-aff5-e114e0ad346f)
+	)
+	(rectangle
+		(start 158.75 132.08)
+		(end 176.5046 137.16)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 3 255 234 1)
+		)
+		(fill
+			(type color)
+			(color 255 33 220 1)
+		)
+		(uuid 281add37-295a-4bce-9faa-4e05190bfebf)
+	)
+	(arc
+		(start 39.37 154.94)
+		(mid 47.7211 146.7603)
+		(end 57.15 153.67)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 291350c8-52e9-4282-8418-3f63fdd3c50e)
+	)
+	(arc
+		(start 81.28 191.77)
+		(mid 74.6516 179.1628)
+		(end 72.39 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6a8af972-356e-4b45-ba55-0522b69dfe91)
+	)
+	(circle
+		(center 187.6806 144.2212)
+		(radius 8.132)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 735bd1b7-c609-4372-9cfd-cdda8f0c8e6f)
+	)
+	(arc
+		(start 78.74 142.24)
+		(mid 81.7399 153.4875)
+		(end 82.55 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b51ae769-ebfe-4d0e-a34f-134e6ac515bb)
+	)
+	(arc
+		(start 118.11 177.8)
+		(mid 112.5868 158.6099)
+		(end 115.189 138.811)
+		(stroke
+			(width 1)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type color)
+			(color 144 255 170 1)
+		)
+		(uuid cfdc0058-bffd-43b4-8dbd-db8d6ff37952)
+	)
+	(circle
+		(center 195.58 114.3)
+		(radius 0.5112)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e0bec2fb-4a80-4873-8a28-71ea529484cd)
+	)
+	(image
+		(at 254.4064 94.1578)
+		(scale 2)
+		(uuid "a9e9c786-bc9b-467b-9bfc-bcc3d9a0a00b")
+		(data "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAA3NCSVQICAjb4U/gAAAC2VBMVEUA"
+			"AAD2T0/2T0/2T0+5Q0ZoMjuQOkD2T0/2T0/2T0/2T0+wQUUXIi9cMDn2T0/2T0/2T0/2T0/2T0/2"
+			"T0/2T0/2T0/2T0+tQEX2T0/2T0/vTk6XPEGOOkDqTU2dPUJlMjr2T0/2T09nMjtEKzWPOkCUO0GS"
+			"O0E9KjWbPUL2T0/2T085KTRaMDnyTk72T0+EOD/MR0ncSkv2T0/2T0/YSUvXSUq0QkWHOT+sQET1"
+			"T0/2T0/2T08vJzMyJzPAREeRO0B3NT32T08qJjIhJDAdIzAoJjLLRklLLTcaIzDxTk72T081KDM0"
+			"KDNOLTcoJTEfJDCjPkM6KTTzTk/eWWC2aXuJfJoXq+cXq+cXq+f2T0/FRUhRLjdpMzvoTE0gJDDw"
+			"UlOYdo89m80Xq+cXq+cXq+cXq+f2T0/kS0ztTU7gS0zQR0rJYW04ndAXq+cXq+cXq+f2T099Nz4i"
+			"JDG+REfaSUveSkvzTk66aHgfqOIXq+f2T0/uTU4YIi8kJTGhPkPQX2kgp+EXnNMXh7YXquYXntUX"
+			"ZIgXlckXq+f2T094Nj03KTQbJDFAmMgXYIIXQFcXl8wXkcQXgK0Xq+f2T0/2T0+IOT+gPkMXUGwX"
+			"Xn8XJDEXJjUXJzUXb5YXq+cXq+f2T08XhLMXKjoXlsoXRF0Xmc8Xq+f2T0/2T0/2T0+tQ0gXp+IX"
+			"qeUXaY4XJTMXKDcXdZ4Xq+f2T0/2T0/2T0/2T0/2T0/2T0+SWWgXUnAXksYXO1EXOk8XbpUXksUX"
+			"eKIXqOMXR2AXPFIXk8cXd6IXR2EXotsXVHIXXX4Xe6cXq+cXhbQXMEIXWHgXi7wXq+cXpd4Xq+cX"
+			"q+cXM0YXq+cXq+cXq+cXXoAXLj8Xq+cXq+cXibkXWXkXoNgXq+cXq+cXq+cXq+cXq+cXq+cXq+cX"
+			"q+cXq+cXq+cXq+cXq+cXq+cXq+cXq+cXq+cXq+cXq+cXq+cXq+cXq+cXq+ce57f4AAAA83RSTlMA"
+			"D0tskqptNa/7//////qsMgaQ/owFuP+yoP///////5xN/////////0jO////zf///y12////////"
+			"cJv//////5n//////////6P/////////////wFY3Bnf////////////1oy83/////////YsF1v//"
+			"////////tmX///////////////+hjf///////////04C5f//////////1QE9//////85k8KE////"
+			"/////36JRwoeXYKz//////+yS///7TT//////8MO/////8//T3b/7AkQ//+uW////+iHK3luMbjr"
+			"eoPasCJrl6yiSDOIzgPxkQlyAAACOUlEQVQ4jXXS9VsUQRgH8MH25ZUQFUwwzo4zUFEPRVQMzu72"
+			"NVHB7hZQz0CwW8/Cwu4uUAETuxMDzL/Amdld2F30+8M+u+/7uZuZ9xnGlLjkyp0nbz4X9p/kL1AQ"
+			"wBULubl7/KvtWdgLQAIAryJFc/aLgYy3AAA+nmZQvETJUqV5pwz6Suhn6peFcojlK1gqVsLKyl9V"
+			"MYKqUA2VVK+hgJqGvgeABbGW1WqtDVrq6EFdXqjnL+v1GzQMkC+N9KAxP18TWyAvN+WrNJMgSA/c"
+			"AZojBttsthYtW4W0biNAWz3wA2iHGGq329t36NgpuDNAl67duvfomQV6AfTu07cf/11gf0TLgIGD"
+			"SGTwkKEqGMZbw0fIpcO8R44aTVrCI8YoYiyMw/ETwiZOmgwwZSrpMk1ZZ/qMmcqcZs2eM5fmzY+U"
+			"zajoBUQLJVgUEIoY4nA4Fi9ZSrQMY5YLEItx/LmC91euAn/HarGJNWt5ad36DRs3RWpg8xbGtmYN"
+			"2HWbAM7tMbhjpwpoF2O7Adzi98RzsHefBLT/QMLBQyo4zJjPkaPH+ErHT5w8Fctz2snLZ87iOTwv"
+			"Pi/oZ3pRnkUAunRZvQFX9ODqNZ7rAiQmoRNviM+benCLlD1Qcgqm3lb2EGG4O3ckuJuKKcnaKe4Z"
+			"wH0BEh5gUqI2h7SHBvAojegxPonLnuRTZswzoucvXlI2eGUC7DWZ8sYs3oYbwTszYO8/qK2Pn9I/"
+			"E33JARj7+i0j83v6D3Gdfv76/ecv2KHibWfTVScAAAAASUVORK5CYII="
+		)
+	)
+	(text_box "Fuck you 15"
+		(exclude_from_sim no)
+		(at -24.13 90.17 90)
+		(size 12.7 24.13)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify right)
+		)
+		(uuid "098aa784-b32f-4217-8513-cbbdb5e49bc4")
+	)
+	(text_box "Fuck you 2"
+		(exclude_from_sim no)
+		(at 69.85 76.2 0)
+		(size 24.13 12.7)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify top)
+		)
+		(uuid "10ecc371-56a9-468d-8ddc-663f5b32d8f8")
+	)
+	(text_box "Fuck you 10"
+		(exclude_from_sim no)
+		(at -57.15 67.31 90)
+		(size 12.7 20.32)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify left top)
+		)
+		(uuid "12db19e2-d927-4cb7-9d4d-cb6d2f124afd")
+	)
+	(text_box "Fuck you 11"
+		(exclude_from_sim no)
+		(at -40.64 67.31 90)
+		(size 12.7 20.32)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify top)
+		)
+		(uuid "18a747da-cff5-4f70-b792-81e2229d5ce3")
+	)
+	(text_box "${5b872e66-d65a-4ca5-b0aa-ef893d5bc7f4:VALUE}"
+		(exclude_from_sim no)
+		(at 97.79 91.44 0)
+		(size 24.13 12.7)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify right)
+		)
+		(uuid "2ca20095-d62a-46a3-9e6d-ae32f6be342e")
+	)
+	(text_box "Fuck you 88"
+		(exclude_from_sim no)
+		(at 69.85 107.95 0)
+		(size 24.13 12.7)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify bottom)
+		)
+		(uuid "3d952790-c1f8-4e24-bb61-738c7fca147f")
+	)
+	(text_box "Fuck you 17"
+		(exclude_from_sim no)
+		(at -40.64 116.84 90)
+		(size 12.7 24.13)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify bottom)
+		)
+		(uuid "3f8bcd2f-7423-497b-90a0-132ffbdc582c")
+	)
+	(text_box "Fuck you 4"
+		(exclude_from_sim no)
+		(at 41.91 91.44 0)
+		(size 24.13 12.7)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify left)
+		)
+		(uuid "40511a9e-f9e0-43a3-93ca-387433cf650d")
+	)
+	(text_box "Fuck you 18"
+		(exclude_from_sim no)
+		(at -24.13 116.84 90)
+		(size 12.7 24.13)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "71299c77-8166-4aa0-9614-63c45c12cbfa")
+	)
+	(text_box "Fuck you 14"
+		(exclude_from_sim no)
+		(at -40.64 90.17 90)
+		(size 12.7 24.13)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+		)
+		(uuid "7aec3618-9a06-42c4-85e5-7d7889b3130c")
+	)
+	(text_box "${company}"
+		(exclude_from_sim no)
+		(at 69.85 91.44 0)
+		(size 24.13 12.7)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+		)
+		(uuid "7b5f7cfe-4798-4ac8-b492-f809763ae4d2")
+	)
+	(text_box "Fuck you bot tom right Fuck you bot tom right Fuck you bot tom right Fuck you bot tom right Fuck you bot to"
+		(exclude_from_sim no)
+		(at 73.66 124.46 0)
+		(size 24.13 16.51)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "86cd638b-044c-4fd4-94e1-b960c6e2b3cc")
+	)
+	(text_box "Fuck you 9"
+		(exclude_from_sim no)
+		(at 97.79 107.95 0)
+		(size 24.13 12.7)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ea44ba4-bb41-4974-a841-ff357e16f016")
+	)
+	(text_box "Fuck you 16"
+		(exclude_from_sim no)
+		(at -57.15 116.84 90)
+		(size 12.7 24.13)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "915e2526-6b39-4375-9d7c-250a376da377")
+	)
+	(text_box "Fuck you 12"
+		(exclude_from_sim no)
+		(at -24.13 67.31 90)
+		(size 12.7 20.32)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify right top)
+		)
+		(uuid "92192c5f-ed0a-43a7-9846-f971faeeccd8")
+	)
+	(text_box "Fuck you ceter right Fuck you ceter right Fuck you ceter right Fuck you ceter right "
+		(exclude_from_sim no)
+		(at 41.91 128.27 0)
+		(size 24.13 12.7)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify left)
+		)
+		(uuid "99953dab-d464-4126-b7ff-bd9aee88ea45")
+	)
+	(text_box "Fuck you 20 Fuck you 20 Fuck you 20 Fuck you 20 Fuck you 20 Fuck you 20"
+		(exclude_from_sim no)
+		(at -34.29 154.94 90)
+		(size 12.7 24.13)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3cbd02e-c96c-415c-9ecb-0c875fc14b78")
+	)
+	(text_box "Fuck you 7"
+		(exclude_from_sim no)
+		(at 41.91 107.95 0)
+		(size 24.13 12.7)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0132fdd-6fc7-4778-8cb6-b1613719d082")
+	)
+	(text_box "Fuck you 19 Fuck you 19 Fuck you 19 Fuck you 19 Fuck you 19"
+		(exclude_from_sim no)
+		(at -55.88 154.94 90)
+		(size 12.7 24.13)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+		)
+		(uuid "d2976866-4943-4370-83d6-dabbff1b8489")
+	)
+	(text_box "Fuck you 1"
+		(exclude_from_sim no)
+		(at 41.91 76.2 0)
+		(size 24.13 12.7)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify left top)
+		)
+		(uuid "d677fab5-e271-45c7-ae89-ad2df295bbe5")
+	)
+	(text_box "<script>alert('fucked!');</script>"
+		(exclude_from_sim no)
+		(at 97.79 76.2 0)
+		(size 24.13 12.7)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify right top)
+		)
+		(uuid "e9648f88-08ed-4708-9fd0-9e0f9ac2adf3")
+	)
+	(text_box "Fuck you 13"
+		(exclude_from_sim no)
+		(at -57.15 90.17 90)
+		(size 12.7 24.13)
+		(stroke
+			(width -0.0001)
+			(type dash_dot_dot)
+			(color 0 10 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 3 26 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 11 1)
+			)
+			(justify left)
+		)
+		(uuid "ecb1dda6-91de-4eab-b337-757157884185")
+	)
+	(text "Arial text!"
+		(exclude_from_sim no)
+		(at 222.25 72.39 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 5.5 5.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d63ee09-85bd-4529-892a-1217fa600dc6")
+	)
+	(text "This is a ~{multiline} hope\nText text ^{super} text\nText Text _{subs} Text\nD[0..7]\n~~test"
+		(exclude_from_sim no)
+		(at 219.71 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c22d86d-914d-44f9-926a-25a830673f53")
+	)
+	(text "Go fuck \nyourself"
+		(exclude_from_sim no)
+		(at 193.04 95.25 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae688682-98dd-4889-8b1e-3cb09104ea4f")
+	)
+	(label "TEST"
+		(at 257.81 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "420dd648-9f05-4fc4-b754-94e3832497d6")
+	)
+	(label "Label 1"
+		(at 90.17 38.8874 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70fbf641-380a-40ec-ac93-f6da9adca056")
+		(property "Netclass" "123"
+			(at 90.17 40.1574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+					(color 255 35 213 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "Default"
+			(at 90.17 41.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "test" "555"
+			(at 90.17 43.4594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "number two" "123"
+			(at 90.17 45.1104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Netclass" "sys"
+			(at 90.17 38.8874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "output"
+		(shape output)
+		(at 110.49 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ba5d2ee-b33e-46ff-ab1e-a1fbf00900ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4432 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "tri-state"
+		(shape tri_state)
+		(at 109.22 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "515770a5-9ef4-491d-aa32-d6321d4a6539")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.6433 43.18 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Passive"
+		(shape passive)
+		(at 111.76 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b245080-9182-4b32-a03a-67976d550746")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.6907 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "Default"
+			(at 111.76 50.4508 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "lol" "lololo"
+			(at 111.76 52.1018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "input"
+		(shape input)
+		(at 110.49 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8b2a195-decf-44d9-a86f-2150588a18e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.1733 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "bidirectional"
+		(shape bidirectional)
+		(at 106.68 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "f7158d1e-2633-4641-a894-9371d39a91a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.1662 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 207.01 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 229 10 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "03c73c10-abe6-4cfc-9e4e-96232331bd0a")
+		(property "Netclass" "Default"
+			(at 208.2165 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+					(color 255 1 24 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "FUck"
+			(at 208.2165 117.9195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Custom_n" "Custom_v1"
+			(at 208.2165 116.459 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 199.2884 119.2784 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40d80206-cf61-4ac5-be1d-088e6e6f8faa")
+		(property "Netclass" ""
+			(at 199.9869 116.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape rectangle)
+		(at 203.2 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "904453e7-d1b3-4a24-96b2-b2aaf6c233c1")
+		(property "Netclass" ""
+			(at 204.4065 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 5.08)
+		(shape round)
+		(at 195.58 119.38 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9de72a01-0d98-4e2f-9207-b2afdfae8ce8")
+		(property "Netclass" ""
+			(at 190.5 118.6815 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AHC1G02")
+		(at 41.91 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "320633ae-f5d6-415a-8d5f-5861fe8fcf97")
+		(property "Reference" "U1"
+			(at 53.34 33.6551 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1G02"
+			(at 53.34 36.1951 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "<script>alert('fucked again!');</script>"
+			(at 46.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c46c4973-75f7-44a2-a584-b761906bedeb")
+		)
+		(pin "2"
+			(uuid "7e1a9fe2-0606-4262-b67f-7619668404b2")
+		)
+		(pin "3"
+			(uuid "cd7cf414-a624-4257-8646-f1640a001308")
+		)
+		(pin "4"
+			(uuid "6407d9f1-d5f1-4a70-969d-8798800e543a")
+		)
+		(pin "5"
+			(uuid "c37997f8-65c4-494a-a147-46e642c065fd")
+		)
+		(instances
+			(project "Project_1"
+				(path "/12004f88-a863-4328-823f-21122d91bb4c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V5")
+		(at 90.17 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba580011-9a6a-4a8a-9bb6-8fcd7456bcee")
+		(property "Reference" "#PWR01"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V5"
+			(at 90.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a25cf5a-3825-4f07-86f4-35822057a814")
+		)
+		(instances
+			(project "Project_1"
+				(path "/12004f88-a863-4328-823f-21122d91bb4c"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.6116 55.8292)
+		(size 17.78 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 184 30 255 1)
+		)
+		(fill
+			(color 0 86 255 1.0000)
+		)
+		(uuid "6fdc5ac2-4943-476b-9466-f44cfd4e7cc3")
+		(property "Sheetname" "sub-page"
+			(at 143.6116 55.1176 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sub_page.kicad_sch"
+			(at 143.6116 67.8438 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Biba" passive
+			(at 161.3916 60.9092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f384bfc2-479b-4db2-a1ef-a26fc62c4259")
+		)
+		(instances
+			(project "Project_1"
+				(path "/12004f88-a863-4328-823f-21122d91bb4c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 88.9)
+		(size 26.67 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a94b96fd-e996-4dbd-a44c-a17ef254cbc7")
+		(property "Sheetname" "Page3.1"
+			(at 149.86 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "page3.kicad_sch"
+			(at 149.86 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project_1"
+				(path "/12004f88-a863-4328-823f-21122d91bb4c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
